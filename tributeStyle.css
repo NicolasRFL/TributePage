@@ -1,0 +1,89 @@
+body{
+    background-color:  #323030;
+    padding: 0.5rem;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#title{
+    background-color: #CDBEA7;
+    padding: 0rem;
+    text-align: center;
+    border: 2px solid grey;
+}
+
+#main{
+    background-color: burlywood;
+    padding: 1rem;
+}
+
+#img-div,#img-div3{
+    background-color: #CDBEA7;
+    display: flexbox;    
+    flex-direction: column;
+    max-width:100%;
+    max-height:auto;
+    float:left;
+    border: 2px solid grey;
+    margin-right:1rem;
+}
+
+.img-p{
+    padding-left: 0rem;
+}
+
+#img-text{
+    margin-bottom:1rem;
+}
+
+#image,#image2,#image3{
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    display:block;
+}
+
+#img-caption,#img-caption2,#img-caption3{
+    text-align: center;
+    font-style: italic;
+}
+
+#tribute-info{
+    text-align: justify;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 1rem 1rem;
+}
+
+p{
+    font-size:larger;
+    margin-top: 0rem;
+    margin-bottom: 1rem;
+    padding-left: 0rem;
+}
+
+h4{
+    font-style: italic;
+}
+
+#img-div2{
+    background-color: #CDBEA7;
+    display: flexbox;    
+    flex-direction: column;
+    max-width:fit-content;
+    max-height:auto;
+    float:right;
+    border: 2px solid grey;
+    margin-left:1rem;
+}
+
+#link{
+    margin: 1rem;
+    border: 2px solid grey;
+    text-align: center;
+    background-color:#CDBEA7;
+}
+
+a{
+    text-decoration: none;
+    color:blue
+}
